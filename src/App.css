@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
 .Shopping-list-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .root {
   margin-left: 100px;

@@ -4,6 +4,7 @@ import './App.css';
 import { TextField } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { addToList, RemoveFromList } from "./utils/listUtils"
+import ShoppingList from "./components/shoppingList"
 
 const useStyles = makeStyles({
   root: {
@@ -30,9 +31,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <ShoppingList/>
         <div className="Shopping-list-container">
           <TextField
             classes={{
