@@ -9,7 +9,7 @@
 
 .Shopping-list-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .root {
   margin-left: 100px;
