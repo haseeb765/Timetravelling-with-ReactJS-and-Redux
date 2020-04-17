@@ -27,9 +27,9 @@ const styles = (theme: any) => ({
 });
 
 class ShoppingListContainer extends React.Component<MyProps, MyState> {
-    constructor(props: Readonly<MyProps>) {
-        super(props);
-    }
+    // constructor(props: Readonly<MyProps>) {
+    //     super(props);
+    // }
     static propTypes: { classes: PropTypes.Validator<object>; };
 
     render() {
