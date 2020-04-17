@@ -4,7 +4,7 @@ import './App.css';
 import { TextField } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { addToList, RemoveFromList } from "./utils/listUtils"
-import ShoppingList from "./components/shoppingList"
+import ShoppingContainer from "./components/ShoppingContainer"
 
 const useStyles = makeStyles({
   root: {
@@ -31,7 +31,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ShoppingList/>
+        <ShoppingContainer
+          items={["test1", "test2", "test3"]}
+        />
         <div className="Shopping-list-container">
           <TextField
             classes={{
